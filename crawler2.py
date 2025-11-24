@@ -10,7 +10,7 @@ from datetime import datetime
 # CẤU HÌNH (CONFIG)
 # ==============================================================================
 # Thay bằng API Key của bạn hoặc đặt trong biến môi trường
-API_KEY = os.getenv("TMDB_API_KEY", "5bae744934d0a79c18c935e723ea8ac2")
+API_KEY = os.getenv("TMDB_API_KEY", "YOUR_API_KEY_HERE")
 
 OUTPUT_FILE = "movies_dataset_revenue.csv"
 START_YEAR = 2000
