@@ -81,9 +81,9 @@ def load_artifacts() -> AppArtifacts:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Movie Revenue Prediction", layout="centered")
+    st.set_page_config(page_title="Movie Revenue Predictor", layout="centered")
 
-    st.title("Movie Revenue Prediction")
+    st.title("Movie Revenue Predictor")
     st.write("Nhập thông tin phim và (tuỳ chọn) upload poster để dự đoán doanh thu.")
 
     if not (ARTIFACTS_DIR / "model.joblib").exists():
