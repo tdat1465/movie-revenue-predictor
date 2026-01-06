@@ -23,7 +23,7 @@ Artifacts được lưu ở `web_app/artifacts/`:
 ## 3) Chạy web app
 
 ```bash
-streamlit run web_app/app.py
+python -m streamlit run web_app_ttd/app.py
 ```
 
 ## Ghi chú
