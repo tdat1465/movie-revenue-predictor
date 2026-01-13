@@ -92,7 +92,6 @@ movie-revenue-prediction/
     │   ├── model.joblib
     │   └── poster_medians.json
     ├── feature_engineering.py
-    ├── requirements.txt
     └── train_and_export.py
 ```
 
